@@ -1,7 +1,9 @@
+import '../css/Footer.css'
+
 function Footer() {
     return(
         <div className="rodape">
-            &Copy; 2023 - Desenvolvido por @WenderG
+            &copy; 2023 - Desenvolvido por @WenderG
         </div>
     )
 }
