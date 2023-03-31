@@ -1,0 +1,30 @@
+.main {
+    background-color: #001aff;
+    color: #ffffff;
+    height: 100vh;
+}
+
+h1 {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.botoes {
+    text-align: center;
+}
+
+button {
+    background-color: #8c00ff;
+    border: none;
+    border-radius: 1rem;
+    color: #ffffff;
+    margin: 2rem 1rem 2rem 1rem;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+}
+
+.mesa {
+    margin-top: 2rem;
+    width: 100%;
+}
