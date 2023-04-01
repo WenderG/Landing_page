@@ -11,7 +11,9 @@ function Home() {
                 <button>Entrar</button>
                 <button>Cadastrar</button>
             </div>
-            <img className="mesa" src={mesa} alt="Mesa de reunião"/>
+            <div className='imagem'>
+                <img className="mesa" src={mesa} alt="Mesa de reunião"/>
+            </div>
         </section>
     )
 }
