@@ -1,12 +1,42 @@
 .main {
-    background-color: #001aff;
+    background-color: #0059ff;
     color: #ffffff;
-    height: 100vh;
+    height: auto;
 }
 
 h1 {
+    font-size: 32px;
+    margin-bottom: 1rem;
     padding-top: 2rem;
     text-align: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 200px;
+}
+
+form {
+    background-color: #0616a5;
+    border: 5px solid #00153b;
+    border-radius: 15px;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+input {
+    margin: 0.3rem 0 0.7rem 0;
+}
+
+#mensagem {
+    height: 100px;
+}
+
+input#submit {
+    margin: auto;
 }
 
 .botoes {
@@ -18,13 +48,22 @@ button {
     border: none;
     border-radius: 1rem;
     color: #ffffff;
-    margin: 2rem 1rem 2rem 1rem;
+    margin: 2rem 0.5rem 1rem 0.5rem;
     text-align: center;
     height: 30px;
     width: 100px;
 }
 
+button:hover {
+    background-color: #500092;
+}
+
+.imagem {
+    text-align: center;
+}
+
 .mesa {
-    margin-top: 2rem;
+    margin: 1rem 0 2rem 0;
+    text-align: center;
     width: 100%;
 }
