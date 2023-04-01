@@ -1,7 +1,7 @@
 .main {
     background-color: #001aff;
     color: #ffffff;
-    height: 100vh;
+    height: auto;
 }
 
 h1 {
@@ -24,7 +24,18 @@ button {
     width: 100px;
 }
 
+button:hover {
+    background-color: #500092;
+}
+
+.imagem {
+    text-align: center;
+}
+
 .mesa {
-    margin-top: 2rem;
-    width: 100%;
+    border-radius: 1rem;
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
 }
