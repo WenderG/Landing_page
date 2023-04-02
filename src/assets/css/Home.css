@@ -9,6 +9,7 @@ h1 {
     margin-bottom: 1rem;
     padding-top: 2rem;
     text-align: center;
+    -webkit-text-stroke: #000000;
 }
 
 .formulario {
@@ -20,8 +21,8 @@ h1 {
 }
 
 form {
-    background-color: #0616a5;
-    border: 5px solid #00153b;
+    background-color: #69681d;
+    border: 5px solid #ffffff;
     border-radius: 15px;
     margin-top: 1rem;
     padding: 1rem;
@@ -40,14 +41,16 @@ input#submit {
 }
 
 .botoes {
+    display: flex;
     text-align: center;
 }
 
 button {
-    background-color: #8c00ff;
+    background-color: #a19f04;
     border: none;
     border-radius: 1rem;
     color: #ffffff;
+    text-shadow: #000000;
     margin: 2rem 0.5rem 1rem 0.5rem;
     text-align: center;
     height: 30px;
@@ -55,15 +58,27 @@ button {
 }
 
 button:hover {
-    background-color: #500092;
+    background-color: #bdba0a;
 }
 
 .imagem {
     text-align: center;
 }
 
-.mesa {
+.escritorio {
     margin: 1rem 0 2rem 0;
     text-align: center;
     width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        background-image: url('../img/mesa.jpg');
+        background-size: cover;
+    }
+
+    .escritorio {
+        display: none;
+    }
+        
 }
