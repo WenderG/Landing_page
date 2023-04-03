@@ -1,47 +1,49 @@
 .main {
-    background-color: #0059ff;
-    color: #ffffff;
+    background-image: url('../img/escritorio.jpeg');
+    background-size: cover;
+    color: #ffffff;  
     height: auto;
 }
 
 h1 {
-    font-size: 32px;
-    margin-bottom: 1rem;
+    font-size: 42px;
+    font-family: 'Concert One', cursive;
+    margin-bottom: 4rem;
     padding-top: 2rem;
     text-align: center;
     -webkit-text-stroke: #000000;
+    -webkit-text-stroke-width: 0.5px;
 }
 
-.formulario {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.paineis {
     margin: auto;
     width: 200px;
 }
 
-form {
-    background-color: #69681d;
-    border: 5px solid #ffffff;
+.painel {
+    background-color: #bbb829;
+    border: 2px solid #5f5e02;
     border-radius: 15px;
-    margin-top: 1rem;
-    padding: 1rem;
+    margin: 0 1rem 2rem 0.5rem;
+    width: 180px;
+    height: 150px;
 }
 
-input {
-    margin: 0.3rem 0 0.7rem 0;
+h3 {
+    background-color: #5f5e02;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 11px;
+    padding: 3px;
+    text-align: center;
 }
 
-#mensagem {
-    height: 100px;
+ul {
+    margin-left: 2rem;
+    padding-top: 0.4rem;
 }
 
-input#submit {
-    margin: auto;
-}
 
-.botoes {
-    display: flex;
+.display {
     text-align: center;
 }
 
@@ -77,8 +79,15 @@ button:hover {
         background-size: cover;
     }
 
-    .escritorio {
-        display: none;
+    h1 {
+        padding-top: 4rem;
     }
-        
+
+    .paineis {
+        display: grid;
+        grid-template-areas: "a b c";
+        margin: auto;
+        padding-top: 5rem;
+        width: 700px;
+    }
 }
